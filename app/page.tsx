@@ -3,6 +3,8 @@ import Hero from "@/src/components/sections/Hero";
 import Metrics from "@/src/components/sections/Metrics";
 import Journey from "@/src/components/sections/Journey";
 import Pillars from "@/src/components/sections/Pillars";
+import FounderStory from "@/src/components/sections/FounderStory";
+import AtlasPreview from "@/src/components/sections/AtlasPreview";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Metrics />
         <Journey />
         <Pillars />
+        <AtlasPreview />
+        <FounderStory />
         {[
           ["atlas", "The Atlas", "See the forces shaping a more brilliant future."],
           ["programs", "Programs", "Move from intention to meaningful action."],
