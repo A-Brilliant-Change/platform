@@ -16,6 +16,7 @@ import {
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { pillars } from "@/src/data/atlas/pillars";
+import type { Pillar } from "@/src/data/atlas/pillars";
 
 const icons: Record<string, LucideIcon> = {
 	briefcase: BriefcaseBusiness,
@@ -31,7 +32,7 @@ const icons: Record<string, LucideIcon> = {
 };
 
 export default function Pillars() {
-	const [activePillar, setActivePillar] = useState(pillars[0].id);
+	const [activePillar, setActivePillar] = useState<Pillar["id"]>(pillars[0].id);
 
 	return (
 		<section id="pillars" className="relative overflow-hidden border-t border-white/10 bg-[#091B36] px-6 py-28 sm:px-10 lg:px-16 lg:py-40">
