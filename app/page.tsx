@@ -1,16 +1,12 @@
 import Navbar from "@/src/components/layout/Navbar";
+import Hero from "@/src/components/sections/Hero";
 
 export default function Home() {
   return (
     <div id="top" className="min-h-screen bg-[#091B36] text-white">
       <Navbar />
       <main>
-        <section className="flex min-h-screen items-end px-6 pb-24 pt-40 sm:px-10 lg:px-16" id="mission">
-          <div className="mx-auto w-full max-w-7xl">
-            <p className="mb-6 text-xs uppercase tracking-[0.3em] text-[#D4AF37]">A Brilliant Change</p>
-            <h1 className="max-w-4xl text-5xl font-light tracking-[-0.04em] sm:text-7xl lg:text-8xl">Change is a practice.</h1>
-          </div>
-        </section>
+        <Hero />
         {[
           ["atlas", "The Atlas", "See the forces shaping a more brilliant future."],
           ["programs", "Programs", "Move from intention to meaningful action."],
