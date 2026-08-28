@@ -1,15 +1,14 @@
 "use client";
 
 import {
-	Activity,
+	BookOpen,
 	BriefcaseBusiness,
-	Building2,
 	ChartNoAxesCombined,
+	Clapperboard,
 	Globe2,
 	HeartPulse,
-	Network,
+	Lightbulb,
 	Sparkles,
-	Sunrise,
 	UsersRound,
 	type LucideIcon,
 } from "lucide-react";
@@ -24,11 +23,11 @@ const icons: Record<string, LucideIcon> = {
 	community: UsersRound,
 	globe: Globe2,
 	leadership: HeartPulse,
-	infrastructure: Building2,
-	systems: Network,
-	sunrise: Sunrise,
-	organization: Activity,
-	sparkles: Sparkles,
+	education: BookOpen,
+	health: HeartPulse,
+	innovation: Lightbulb,
+	media: Clapperboard,
+	faith: Sparkles,
 };
 
 export default function Pillars() {
@@ -70,12 +69,13 @@ export default function Pillars() {
 								transition={{ duration: 0.6, delay: index * 0.05, ease: [0.22, 1, 0.36, 1] }}
 								className={`group relative flex min-h-64 flex-col items-start overflow-hidden rounded-3xl border p-6 text-left backdrop-blur-xl transition-all duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#D4AF37] ${isActive ? "border-[#D4AF37]/60 bg-[#D4AF37]/10 shadow-[0_0_36px_rgba(212,175,55,0.12)]" : "border-white/10 bg-white/4.5 hover:-translate-y-1 hover:border-[#D4AF37]/45 hover:bg-white/8"}`}
 							>
-								<span className="absolute right-5 top-5 text-[10px] tracking-[0.2em] text-white/25">0{index + 1}</span>
+								<span className="absolute right-5 top-5 text-[10px] tracking-[0.2em] text-white/25">{pillar.code}</span>
 								<span className={`flex h-11 w-11 items-center justify-center rounded-2xl border transition-all duration-500 ${isActive ? "border-[#D4AF37] bg-[#D4AF37] text-[#091B36]" : "border-white/15 text-[#D4AF37] group-hover:border-[#D4AF37]"}`}>
 									<Icon size={20} strokeWidth={1.5} aria-hidden="true" />
 								</span>
 								<h3 className="mt-8 max-w-48 font-light leading-6 text-white">{pillar.title}</h3>
 								<p className="mt-3 text-xs font-light leading-5 text-white/50">{pillar.description}</p>
+								<span className="mt-5 text-[9px] uppercase tracking-[0.16em] text-[#D4AF37]/75">Atlas relationship: {pillar.atlasRelationship}</span>
 								<span className={`mt-auto pt-6 text-[9px] font-semibold uppercase tracking-[0.18em] transition-colors ${isActive ? "text-[#D4AF37]" : "text-white/35 group-hover:text-[#D4AF37]"}`}>Explore Domain -&gt;</span>
 							</motion.button>
 						);
