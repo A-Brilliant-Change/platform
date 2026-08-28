@@ -2,6 +2,7 @@ import Navbar from "@/src/components/layout/Navbar";
 import Hero from "@/src/components/sections/Hero";
 import Metrics from "@/src/components/sections/Metrics";
 import Journey from "@/src/components/sections/Journey";
+import Pillars from "@/src/components/sections/Pillars";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Metrics />
         <Journey />
+        <Pillars />
         {[
           ["atlas", "The Atlas", "See the forces shaping a more brilliant future."],
           ["programs", "Programs", "Move from intention to meaningful action."],
