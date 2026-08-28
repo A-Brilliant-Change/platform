@@ -76,7 +76,7 @@ export default function Journey() {
 										transition={{ duration: 3, delay: index * 0.25, repeat: Infinity, ease: "easeInOut" }}
 									/>
 									<div className={`col-start-2 lg:col-start-auto ${isEven ? "lg:col-start-2" : "lg:col-start-1 lg:row-start-1"}`}>
-										<div className={`group rounded-3xl border border-white/10 bg-white/[0.055] p-6 backdrop-blur-xl transition-colors duration-500 hover:border-[#D4AF37]/45 hover:bg-white/[0.09] sm:p-8 ${isEven ? "lg:ml-10" : "lg:mr-10"}`}>
+										<div className={`group rounded-3xl border border-white/10 bg-white/5.5 p-6 backdrop-blur-xl transition-colors duration-500 hover:border-[#D4AF37]/45 hover:bg-white/9 sm:p-8 ${isEven ? "lg:ml-10" : "lg:mr-10"}`}>
 											<div className="flex items-start justify-between gap-4">
 												<h3 className="text-2xl font-light tracking-tight text-white sm:text-3xl">{stage.title}</h3>
 												<span className="pt-1 text-[10px] font-semibold tracking-[0.24em] text-[#D4AF37]">PHASE 0{index + 1}</span>
