@@ -61,6 +61,7 @@ export default function Pillars() {
 							<motion.button
 								key={pillar.id}
 								type="button"
+								data-atlas-domain={pillar.id}
 								aria-pressed={isActive}
 								onClick={() => setActivePillar(pillar.id)}
 								initial={{ opacity: 0, y: 24 }}
@@ -73,7 +74,7 @@ export default function Pillars() {
 								<span className={`flex h-11 w-11 items-center justify-center rounded-2xl border transition-all duration-500 ${isActive ? "border-[#D4AF37] bg-[#D4AF37] text-[#091B36]" : "border-white/15 text-[#D4AF37] group-hover:border-[#D4AF37]"}`}>
 									<Icon size={20} strokeWidth={1.5} aria-hidden="true" />
 								</span>
-								<h3 className="mt-8 max-w-48-lg font-light leading-6 text-white">{pillar.title}</h3>
+								<h3 className="mt-8 max-w-48 font-light leading-6 text-white">{pillar.title}</h3>
 								<p className="mt-3 text-xs font-light leading-5 text-white/50">{pillar.description}</p>
 								<span className={`mt-auto pt-6 text-[9px] font-semibold uppercase tracking-[0.18em] transition-colors ${isActive ? "text-[#D4AF37]" : "text-white/35 group-hover:text-[#D4AF37]"}`}>Explore Domain -&gt;</span>
 							</motion.button>
