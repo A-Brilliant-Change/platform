@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Infrastructure Explorer</title>
+  <desc id="desc">Layered institutional platform graphic with a gold layered system aesthetic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0a1d38"/>
+      <stop offset="100%" stop-color="#091b36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <path d="M160 780 L360 640 L640 780 L440 920 Z" fill="#0d2746" stroke="#d4af37" stroke-width="2"/>
+    <path d="M280 700 L560 560 L900 700 L620 840 Z" fill="#112d4f" stroke="#d4af37" stroke-width="2"/>
+    <path d="M420 620 L760 470 L1120 620 L780 760 Z" fill="#16385d" stroke="#d4af37" stroke-width="2"/>
+    <path d="M550 535 L910 390 L1280 535 L960 680 Z" fill="#1b456f" stroke="#d4af37" stroke-width="2"/>
+    <path d="M690 450 L1040 320 L1420 450 L1070 580 Z" fill="#234f7d" stroke="#d4af37" stroke-width="2"/>
+  </g>
+  <g opacity="0.7" fill="#d4af37">
+    <circle cx="160" cy="780" r="4"/>
+    <circle cx="360" cy="640" r="4"/>
+    <circle cx="640" cy="780" r="4"/>
+    <circle cx="440" cy="920" r="4"/>
+    <circle cx="550" cy="535" r="4"/>
+    <circle cx="910" cy="390" r="4"/>
+    <circle cx="1280" cy="535" r="4"/>
+    <circle cx="960" cy="680" r="4"/>
+  </g>
+</svg>

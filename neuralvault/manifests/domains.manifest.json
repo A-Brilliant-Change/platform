@@ -1,0 +1,78 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/domain-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "domain-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "domains": [
+    {
+      "id": "workforce-development",
+      "title": "Workforce Development",
+      "promise": "Skills. Careers. Better Futures.",
+      "primaryOutcome": "meaningful-employment",
+      "relatedDomains": ["education", "economic-mobility", "leadership-development"]
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "promise": "Knowledge Today. Opportunity Tomorrow.",
+      "primaryOutcome": "knowledge-and-credentials",
+      "relatedDomains": ["workforce-development", "innovation-and-technology", "entrepreneurship"]
+    },
+    {
+      "id": "entrepreneurship",
+      "title": "Entrepreneurship",
+      "promise": "Ideas to Impact. Businesses That Build Communities.",
+      "primaryOutcome": "business-ownership",
+      "relatedDomains": ["economic-mobility", "innovation-and-technology", "community-transformation"]
+    },
+    {
+      "id": "leadership-development",
+      "title": "Leadership Development",
+      "promise": "Stronger Leaders. Stronger Communities.",
+      "primaryOutcome": "community-leadership",
+      "relatedDomains": ["community-engagement", "workforce-development", "community-transformation"]
+    },
+    {
+      "id": "economic-mobility",
+      "title": "Economic Mobility",
+      "promise": "Rising Income. Growing Wealth. Changing Lives.",
+      "primaryOutcome": "financial-advancement",
+      "relatedDomains": ["workforce-development", "entrepreneurship", "housing-stability"]
+    },
+    {
+      "id": "housing-stability",
+      "title": "Housing Stability",
+      "promise": "Stable Homes. Stronger Families. Stronger Communities.",
+      "primaryOutcome": "stable-housing",
+      "relatedDomains": ["resource-navigation", "economic-mobility", "community-transformation"]
+    },
+    {
+      "id": "resource-navigation",
+      "title": "Resource Navigation",
+      "promise": "The Right Help. At the Right Time. No One Walks Alone.",
+      "primaryOutcome": "coordinated-access",
+      "relatedDomains": ["housing-stability", "workforce-development", "community-engagement"]
+    },
+    {
+      "id": "community-engagement",
+      "title": "Community Engagement",
+      "promise": "Connection. Belonging. Shared Purpose.",
+      "primaryOutcome": "civic-belonging",
+      "relatedDomains": ["leadership-development", "resource-navigation", "community-transformation"]
+    },
+    {
+      "id": "innovation-and-technology",
+      "title": "Innovation & Technology",
+      "promise": "Future Ready. Solutions That Transform.",
+      "primaryOutcome": "digital-capacity",
+      "relatedDomains": ["education", "entrepreneurship", "workforce-development"]
+    },
+    {
+      "id": "community-transformation",
+      "title": "Community Transformation",
+      "promise": "Revitalize. Rebuild. Leave a Legacy.",
+      "primaryOutcome": "lasting-community-impact",
+      "relatedDomains": ["community-engagement", "leadership-development", "economic-mobility"]
+    }
+  ]
+}

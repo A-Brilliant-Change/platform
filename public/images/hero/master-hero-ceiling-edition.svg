@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Master Hero Ceiling Edition</title>
+  <desc id="desc">A premium dark navy hero backdrop with gold lighting, abstract architecture lines, and a refined cinematic mood.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071a2f"/>
+      <stop offset="48%" stop-color="#0a1d38"/>
+      <stop offset="100%" stop-color="#061426"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="18%" r="40%">
+      <stop offset="0%" stop-color="#d9b759" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#d9b759" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#d9b759" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g opacity="0.7" stroke="#d4af37" stroke-width="1.2" fill="none">
+    <path d="M0 760 L1600 760"/>
+    <path d="M90 820 L420 650 L760 820 L1100 650 L1500 820" opacity="0.8"/>
+    <path d="M100 950 L300 780 L500 950" opacity="0.5"/>
+    <path d="M1120 950 L1320 780 L1500 950" opacity="0.5"/>
+    <path d="M0 660 L480 540 L800 660 L1600 540" opacity="0.5"/>
+  </g>
+  <g opacity="0.5" fill="#d4af37">
+    <circle cx="220" cy="190" r="3"/>
+    <circle cx="450" cy="120" r="3"/>
+    <circle cx="720" cy="220" r="3"/>
+    <circle cx="1000" cy="140" r="3"/>
+    <circle cx="1260" cy="190" r="3"/>
+    <circle cx="1410" cy="270" r="3"/>
+  </g>
+  <g opacity="0.22" stroke="#ffffff" stroke-width="1.2">
+    <path d="M80 160 L700 160"/>
+    <path d="M900 160 L1520 160"/>
+    <path d="M90 240 L430 240"/>
+    <path d="M1170 240 L1510 240"/>
+  </g>
+</svg>

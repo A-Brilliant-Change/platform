@@ -1,0 +1,26 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/agent-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "agent-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "agents": [
+    {
+      "id": "atlas-intelligence",
+      "name": "Atlas Intelligence",
+      "role": "domain-mapping",
+      "status": "active"
+    },
+    {
+      "id": "transformation-intelligence",
+      "name": "Transformation Intelligence",
+      "role": "pathway-analysis",
+      "status": "active"
+    },
+    {
+      "id": "mission-control",
+      "name": "Mission Control",
+      "role": "operations-orchestration",
+      "status": "active"
+    }
+  ]
+}

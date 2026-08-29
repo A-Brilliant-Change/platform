@@ -1,0 +1,6 @@
+ABC Navy #0F172A
+ABC Blue #1D4EDB
+ABC Gold #D4A017
+ABC Light Gray #E5E7EB
+ABC Off White #FAFAF9
+ABC Slate #1F2937

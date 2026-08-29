@@ -1,0 +1,43 @@
+export const ceilingEditionDoctrine = {
+  id: "ceiling-edition",
+  version: "1.0.0",
+  status: "production",
+  name: "A Brilliant Change™ Website Master Hero",
+  edition: "Ceiling Edition™",
+  doctrine: {
+    primary: "Every Opportunity Begins With People™",
+    supporting: "One Heart. Ten Pathways. Unlimited Potential.",
+    origin: "Tulsa, Oklahoma",
+    purpose:
+      "Transform the Master Transformation Atlas into a living overhead environment that connects people, opportunity, infrastructure, and community outcomes.",
+  },
+  experienceRole: "global-narrative-environment",
+  visualHierarchy: [
+    "people-first-heart",
+    "tulsa-origin",
+    "opportunity-pathways",
+    "transformation-domains",
+    "ecosystem-nodes",
+    "infrastructure-signals",
+    "community-outcomes",
+  ],
+  experienceStates: [
+    "arrival",
+    "awakening",
+    "exploration",
+    "domain-focus",
+    "journey-progress",
+    "ecosystem-reveal",
+    "legacy-reveal",
+    "return-to-heart",
+  ],
+  rules: {
+    peopleRemainPrimary: true,
+    tulsaRemainsOrigin: true,
+    heartRemainsCenter: true,
+    domainsRemainInterconnected: true,
+    pathwaysRepresentOpportunity: true,
+    motionMustCommunicateMeaning: true,
+    decorativeMotionMustRemainSecondary: true,
+  },
+} as const;

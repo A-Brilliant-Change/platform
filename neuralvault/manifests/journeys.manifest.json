@@ -1,0 +1,44 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/journey-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "journey-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "journeys": [
+    {
+      "id": "discover",
+      "label": "Discover",
+      "purpose": "Recognize potential, needs, goals, and possibilities.",
+      "domainIds": ["resource-navigation", "community-engagement"]
+    },
+    {
+      "id": "assess",
+      "label": "Assess",
+      "purpose": "Understand strengths, barriers, readiness, and priorities.",
+      "domainIds": ["workforce-development", "economic-mobility"]
+    },
+    {
+      "id": "prepare",
+      "label": "Prepare",
+      "purpose": "Build the skills, plans, confidence, and support required.",
+      "domainIds": ["education", "leadership-development"]
+    },
+    {
+      "id": "connect",
+      "label": "Connect",
+      "purpose": "Create access to people, programs, employers, and resources.",
+      "domainIds": ["resource-navigation", "entrepreneurship"]
+    },
+    {
+      "id": "thrive",
+      "label": "Thrive",
+      "purpose": "Reach stability, growth, independence, and momentum.",
+      "domainIds": ["housing-stability", "economic-mobility"]
+    },
+    {
+      "id": "lead",
+      "label": "Lead",
+      "purpose": "Use progress and experience to strengthen others.",
+      "domainIds": ["leadership-development", "community-transformation"]
+    }
+  ]
+}

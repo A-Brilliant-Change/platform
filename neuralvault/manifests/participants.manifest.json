@@ -1,0 +1,29 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/participants-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "participants-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "participants": [
+    {
+      "id": "participant-1",
+      "role": "emerging-leader",
+      "domains": ["education", "leadership-development"],
+      "journeyStage": "prepare",
+      "supportNeeds": ["mentorship", "coaching", "resource-navigation"]
+    },
+    {
+      "id": "participant-2",
+      "role": "career-shifter",
+      "domains": ["workforce-development", "economic-mobility"],
+      "journeyStage": "assess",
+      "supportNeeds": ["skills-readiness", "workforce-access"]
+    },
+    {
+      "id": "participant-3",
+      "role": "community-builder",
+      "domains": ["community-engagement", "community-transformation"],
+      "journeyStage": "lead",
+      "supportNeeds": ["leadership-support", "network-access"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/doctrine-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "doctrine-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "doctrine": {
+    "principle": "Every Opportunity Begins With People™",
+    "origin": "Tulsa, Oklahoma",
+    "mission": "Transform potential into opportunity and opportunity into community value.",
+    "experiencePrinciples": [
+      "People remain the center of design.",
+      "Opportunity is the bridge between aspiration and action.",
+      "Community value is the return on every effort.",
+      "The journey must be explainable, inclusive, and human-centered."
+    ]
+  }
+}

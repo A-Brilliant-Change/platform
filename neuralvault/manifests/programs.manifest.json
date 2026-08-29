@@ -1,0 +1,29 @@
+{
+  "$schema": "https://abrilliantchange.com/schemas/program-manifest.schema.json",
+  "version": "1.0.0",
+  "kind": "program-manifest",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "programs": [
+    {
+      "id": "pathway-readiness",
+      "title": "Pathway Readiness",
+      "domainIds": ["workforce-development", "resource-navigation"],
+      "status": "active",
+      "outcome": "participant-readiness"
+    },
+    {
+      "id": "leadership-lab",
+      "title": "Leadership Lab",
+      "domainIds": ["leadership-development", "community-engagement"],
+      "status": "active",
+      "outcome": "community-leadership"
+    },
+    {
+      "id": "future-ready-ventures",
+      "title": "Future Ready Ventures",
+      "domainIds": ["entrepreneurship", "innovation-and-technology"],
+      "status": "active",
+      "outcome": "business-ownership"
+    }
+  ]
+}

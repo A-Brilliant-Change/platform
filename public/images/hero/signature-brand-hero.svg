@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Signature Brand Hero</title>
+  <desc id="desc">A luxury portrait-style feature image combining deep navy with gold accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f3d"/>
+      <stop offset="100%" stop-color="#091b36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="820" cy="230" r="200" fill="#d4af37" opacity="0.2"/>
+  <path d="M520 900 C 680 600, 760 520, 1100 320 L1100 900 Z" fill="#0f294f" opacity="0.9"/>
+  <path d="M100 900 C 320 640, 430 540, 620 410 L620 900 Z" fill="#112d4f" opacity="0.78"/>
+  <g opacity="0.7" stroke="#d4af37" stroke-width="2">
+    <path d="M130 760 L1060 760"/>
+    <path d="M250 430 L540 620 L760 430"/>
+    <path d="M760 430 L960 620 L1060 540"/>
+  </g>
+  <g fill="#d4af37" opacity="0.75">
+    <circle cx="230" cy="200" r="5"/>
+    <circle cx="380" cy="150" r="5"/>
+    <circle cx="560" cy="220" r="5"/>
+    <circle cx="890" cy="180" r="5"/>
+  </g>
+</svg>

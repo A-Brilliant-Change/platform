@@ -1,0 +1,15 @@
+Headings:
+Montserrat
+
+Body Copy:
+Merriweather
+
+Brand Style:
+Credible
+Strategic
+Grounded
+Innovative
+Hopeful
+Disciplined
+Community-Centered
+Institution-Building
