@@ -2,8 +2,16 @@ import { buildMissionControlOS } from "@/src/lib/mission-control";
 
 const missionControl = buildMissionControlOS();
 
-function MetricCard({ metric }: { metric: any }) {
-  return (
+type MissionControlMetric =
+  | (typeof missionControl.executiveDashboard.organizationalHealth)[number]
+  | (typeof missionControl.executiveDashboard.participantMetrics)[number]
+  | (typeof missionControl.executiveDashboard.transformationMetrics)[number];
+
+interface MetricCardProps {
+  metric: MissionControlMetric;
+}
+
+function MetricCard({ metric }: MetricCardProps) {
     <div className="rounded-[22px] border border-white/10 bg-white/3 p-5">
       <div className="flex items-start justify-between gap-3">
         <div>
