@@ -1,4 +1,4 @@
-import { type TransformationGoal, type TransformationDomain, type TransformationPlan, type TransformationRecommendation, type TransformationInput } from "./transformation-types";
+import { type TransformationGoal, type TransformationPlan, type TransformationRecommendation, type TransformationInput } from "./transformation-types";
 import { buildOpportunityGraph } from "./opportunity-graph";
 import { evaluateBarriers } from "./barrier-engine";
 import { evaluateStrengths } from "./strength-engine";
