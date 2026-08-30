@@ -14,8 +14,8 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { pillars } from "@/src/data/atlas/pillars";
-import type { Pillar } from "@/src/data/atlas/pillars";
+import { pillars } from "@/data/atlas/pillars";
+import type { Pillar } from "@/data/atlas/pillars";
 
 const icons: Record<string, LucideIcon> = {
 	briefcase: BriefcaseBusiness,

@@ -1,64 +1,173 @@
-# ABC Platform Asset Manifest
+# ABC Platform Asset Manifest™
 
 ## Overview
 
-This manifest records the image assets physically present in the ABrilliantChange.com platform repository. Existing filenames are canonical. No assets are renamed, moved, or inferred from prior inventories.
+This document contains the approved asset inventory currently deployed within the ABrilliantChange.com platform repository.
 
-Last verified: 2026-08-28
+---
 
-## Brand Assets
+# Brand Assets
 
-### Logos
+## Logos
 
-Directory: `/public/brand/logos`
+```text
+ABC-Master-Mark-Official.png
 
-- `ABC-Master-Mark-Official.png`
-- `ABC-Primary-Logo-Official.png`
-- `ABC-Signature-Logo-Official.png`
+ABC-Primary-Logo-Official.png
 
-### Seals
+ABC-Signature-Logo-Official.png
+```
 
-Directory: `/public/brand/seals`
+---
 
-- `ABC-Institutional-Seal-Official.png`
+## Seals
 
-### Institutional Identity
+```text
+ABC-Institutional-Seal-Official.png
+```
 
-Directory: `/public/brand/identity`
+---
 
-- `ABC-Brand-Identity-Board-Official-v1.png`
-- `ABC-Brand-Guidelines-Dashboard-v1.png`
+## Institutional Identity
 
-## Hero Assets
+```text
+ABC-Brand-Identity-Board-Official-v1.png
 
-Directory: `/public/hero`
+ABC-Brand-Guidelines-Dashboard-v1.png
+```
 
-- `ABC-Website-Hero-Cityscape-Aerial-v1.png`
-- `ABC-Website-Hero-Cityscape-Day-v1.png`
-- `ABC-Website-Hero-Cityscape-GoldenHour-v1.png`
-- `ABC-Website-Hero-Cityscape-Night-v1.png`
-- `ABC-Website-Hero-Cityscape-Sunrise-v1.png`
-- `ABC-Website-Hero-Cityscape-Technology-v1.png`
+---
 
-## Atlas Assets
+# Hero Assets
 
-Directory: `/public/atlas`
+Directory:
 
-- `ABC-BFF-00-Master-Brighter-Futures-Framework-Overview.png`
-- `MTA-00-Master-Transformation-Atlas-v1.png`
+```text
+/public/hero
+```
 
-## Ecosystem Assets
+Assets:
 
-Directory: `/public/ecosystem`
+```text
+ABC-Website-Hero-Cityscape-Aerial-v1.png
 
-- `ABC-ECOSYSTEM-00-Master-v1.png`
+ABC-Website-Hero-Cityscape-Day-v1.png
 
-## Empty Asset Directories
+ABC-Website-Hero-Cityscape-GoldenHour-v1.png
 
-The following directories exist but currently contain no image assets:
+ABC-Website-Hero-Cityscape-Night-v1.png
 
-- `/public/backgrounds`
-- `/public/infrastructure`
-- `/public/mission-control`
+ABC-Website-Hero-Cityscape-Sunrise-v1.png
 
-These directories remain reserved for future approved asset delivery.
+ABC-Website-Hero-Cityscape-Technology-v1.png
+```
+
+---
+
+# Atlas Assets
+
+Directory:
+
+```text
+/public/atlas
+```
+
+Assets:
+
+```text
+ABC-Master-Transformation-Atlas-v1.png
+
+ABC-Brighter-Futures-Explorer-v1.png
+```
+
+---
+
+# Infrastructure Assets
+
+Directory:
+
+```text
+/public/infrastructure
+```
+
+Assets:
+
+```text
+ABC-Infrastructure-Explorer-v1.png
+```
+
+---
+
+# Ecosystem Assets
+
+Directory:
+
+/public/ecosystem
+
+Assets:
+
+ABC-Ecosystem-Atlas-v1.png
+
+---
+
+# Mission Control Assets
+
+Directory:
+
+```text
+/public/mission-control
+```
+
+Assets:
+
+```text
+ABC-Mission-Control-v1.png
+```
+
+---
+
+# Background Assets
+
+Directory:
+
+```text
+/public/backgrounds
+```
+
+Assets:
+
+```text
+ABC-Atlas-Background-v1.png
+
+ABC-Potential-To-Legacy-v1.png
+```
+
+---
+
+# Asset Status
+
+Current Status:
+
+✅ Production Approved
+
+✅ MVP Approved
+
+✅ Brand Aligned
+
+✅ Repository Authorized
+
+---
+
+# Source Repository
+
+```text
+ABC Brand Identity System
+```
+
+Version:
+
+1.0
+
+Last Updated:
+
+2026-08-28

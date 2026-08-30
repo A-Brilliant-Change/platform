@@ -2,8 +2,8 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
-import Section from "@/src/components/ui/Section";
-import { pillars } from "@/src/data/atlas/pillars";
+import Section from "@/components/ui/Section";
+import { pillars } from "@/data/atlas/pillars";
 
 const domainPillars = pillars.slice(0, 5);
 

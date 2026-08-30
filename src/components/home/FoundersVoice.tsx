@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import Section from "@/src/components/ui/Section";
+import Section from "@/components/ui/Section";
 
 export default function FoundersVoice() {
   return (

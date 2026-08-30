@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { participantEngine } from "@/src/lib/participants";
+import { participantEngine } from "@/lib/participants";
 
 const result = participantEngine.buildDefaultParticipantResult();
 

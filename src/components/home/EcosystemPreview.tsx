@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import Section from "@/src/components/ui/Section";
+import Section from "@/components/ui/Section";
 
 const organizations = ["ABC Talent Solutions", "ABC IT Solutions", "BrilliantWeb.Dev", "Digilliance.Tech", "Tulsa Times"];
 
