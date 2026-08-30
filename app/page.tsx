@@ -1,8 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 
-const navItems = ["Atlas", "Domains", "Journey", "Infrastructure"];
+const navItems = [
+  { name: "Atlas", href: "/atlas" },
+  { name: "Journey", href: "/journey" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
+];
 
 const domains = [
   {
@@ -102,18 +108,18 @@ export default function Home() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/75 md:flex">
             {navItems.map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} className="transition hover:text-[#D4AF37]">
-                {item}
-              </a>
+              <Link key={item.name} href={item.href} className="transition hover:text-[#D4AF37]">
+                {item.name}
+              </Link>
             ))}
           </nav>
 
-          <a
-            href="#join"
+          <Link
+            href="/contact"
             className="inline-flex items-center justify-center rounded-full border border-[#D4AF37]/60 bg-[#D4AF37] px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#091B36] transition hover:bg-[#E4C868]"
           >
-            Join Us
-          </a>
+            Connect
+          </Link>
         </div>
       </header>
 
@@ -158,18 +164,18 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href="#journey"
+                <Link
+                  href="/journey"
                   className="inline-flex items-center justify-center rounded-full bg-[#D4AF37] px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-[#091B36] shadow-[0_0_24px_rgba(212,175,55,0.35)] transition hover:bg-[#E7C96B]"
                 >
                   Explore Your Path
-                </a>
-                <a
-                  href="#atlas"
+                </Link>
+                <Link
+                  href="/atlas"
                   className="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:border-[#D4AF37]/70 hover:text-[#D4AF37]"
                 >
                   Explore The Atlas
-                </a>
+                </Link>
               </div>
 
               <div className="mt-10 flex flex-wrap gap-6 sm:gap-10">
@@ -365,12 +371,12 @@ export default function Home() {
               <p className="mt-5 text-base leading-8 text-white/70">
                 Every pathway is designed to help people move from uncertainty to agency, from scarcity to stability, and from isolated effort to collective momentum.
               </p>
-              <a
-                href="#join"
+              <Link
+                href="/atlas"
                 className="mt-8 inline-flex items-center justify-center rounded-full border border-[#D4AF37]/60 bg-[#D4AF37] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#091B36] transition hover:bg-[#E4C868]"
               >
                 Explore The Atlas
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -383,12 +389,12 @@ export default function Home() {
                 Build what comes next with a platform designed for people, opportunity, and lasting transformation.
               </h2>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href="mailto:hello@abrilliantchange.com"
+                <Link
+                  href="/contact"
                   className="inline-flex items-center justify-center rounded-full bg-[#D4AF37] px-7 py-4 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#091B36] transition hover:bg-[#E7C96B]"
                 >
                   Join The Movement
-                </a>
+                </Link>
                 <a
                   href="#hero"
                   className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 py-4 text-[10px] font-semibold uppercase tracking-[0.22em] text-white transition hover:border-[#D4AF37]/70 hover:text-[#D4AF37]"

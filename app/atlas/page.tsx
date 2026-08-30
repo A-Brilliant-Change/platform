@@ -68,14 +68,17 @@ export default function AtlasPage() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/75 md:flex">
             <Link href="/" className="transition hover:text-[#D4AF37]">Home</Link>
-            <Link href="/atlas" className="transition hover:text-[#D4AF37]">Atlas</Link>
+            <Link href="/atlas" className="text-[#D4AF37]">Atlas</Link>
+            <Link href="/journey" className="transition hover:text-[#D4AF37]">Journey</Link>
+            <Link href="/about" className="transition hover:text-[#D4AF37]">About</Link>
+            <Link href="/contact" className="transition hover:text-[#D4AF37]">Contact</Link>
           </nav>
 
           <Link
-            href="/#join"
+            href="/contact"
             className="inline-flex items-center justify-center rounded-full border border-[#D4AF37]/60 bg-[#D4AF37] px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#091B36] transition hover:bg-[#E4C868]"
           >
-            Join Us
+            Connect
           </Link>
         </div>
       </header>
@@ -158,10 +161,16 @@ export default function AtlasPage() {
           </h2>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
-              href="/#journey"
+              href="/journey"
               className="inline-flex items-center justify-center rounded-full bg-[#D4AF37] px-6 py-3.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#091B36] transition hover:bg-[#E7C96B]"
             >
               Explore Your Path
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-full border border-[#D4AF37]/50 bg-[#D4AF37]/10 px-6 py-3.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-[#091B36]"
+            >
+              Get In Touch
             </Link>
             <Link
               href="/"
