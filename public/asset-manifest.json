@@ -1,0 +1,76 @@
+{
+  "generated": "2026-08-30",
+  "repository": "platform",
+  "version": "1.0.0",
+  "total_approved_assets": 44,
+  "hero": [
+    { "file": "abc-hero-cityscape-aerial.png", "path": "/hero/abc-hero-cityscape-aerial.png", "category": "hero", "intended_usage": "Full-width hero background variant", "homepage": true },
+    { "file": "abc-hero-cityscape-day.png", "path": "/hero/abc-hero-cityscape-day.png", "category": "hero", "intended_usage": "Hero variant - daytime", "homepage": false },
+    { "file": "abc-hero-cityscape-golden-hour.png", "path": "/hero/abc-hero-cityscape-golden-hour.png", "category": "hero", "intended_usage": "PRIMARY RECOMMENDED - Golden hour hero", "homepage": true },
+    { "file": "abc-hero-cityscape-night.png", "path": "/hero/abc-hero-cityscape-night.png", "category": "hero", "intended_usage": "Hero variant - night", "homepage": false },
+    { "file": "abc-hero-cityscape-sunrise.png", "path": "/hero/abc-hero-cityscape-sunrise.png", "category": "hero", "intended_usage": "Hero variant - sunrise", "homepage": false },
+    { "file": "abc-hero-cityscape-technology.png", "path": "/hero/abc-hero-cityscape-technology.png", "category": "hero", "intended_usage": "Hero variant - technology", "homepage": false }
+  ],
+  "logos": [
+    { "file": "abc-logo-signature-official.png", "path": "/brand/logos/abc-logo-signature-official.png", "category": "logos", "intended_usage": "Primary site logo in header", "homepage": true },
+    { "file": "abc-mark-master-official.png", "path": "/brand/marks/abc-mark-master-official.png", "category": "marks", "intended_usage": "Brand mark standalone", "homepage": true },
+    { "file": "abc-mark-institutional-seal.png", "path": "/brand/marks/abc-mark-institutional-seal.png", "category": "marks", "intended_usage": "Institutional/formal usage", "homepage": false }
+  ],
+  "atlas": [
+    { "file": "abc-atlas-master-transformation.png", "path": "/atlas/abc-atlas-master-transformation.png", "category": "atlas", "intended_usage": "Atlas page primary image", "homepage": false },
+    { "file": "abc-atlas-ecosystem-master.png", "path": "/atlas/abc-atlas-ecosystem-master.png", "category": "atlas", "intended_usage": "Ecosystem overview", "homepage": false },
+    { "file": "abc-atlas-brighter-futures-master.png", "path": "/atlas/abc-atlas-brighter-futures-master.png", "category": "atlas", "intended_usage": "Brighter Futures master overview", "homepage": false }
+  ],
+  "frameworks": [
+    { "file": "abc-framework-theory-of-change-master.png", "path": "/frameworks/abc-framework-theory-of-change-master.png", "category": "frameworks", "intended_usage": "Theory of Change master diagram", "homepage": false },
+    { "file": "abc-framework-systems-design-master.png", "path": "/frameworks/abc-framework-systems-design-master.png", "category": "frameworks", "intended_usage": "Systems Design Framework", "homepage": false },
+    { "file": "abc-framework-transformation-systems.png", "path": "/frameworks/abc-framework-transformation-systems.png", "category": "frameworks", "intended_usage": "Strategic frameworks section", "homepage": true },
+    { "file": "abc-framework-brighter-futures.png", "path": "/frameworks/abc-framework-brighter-futures.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-community-transformation.png", "path": "/frameworks/abc-framework-community-transformation.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-digital-inclusion.png", "path": "/frameworks/abc-framework-digital-inclusion.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-economic-mobility.png", "path": "/frameworks/abc-framework-economic-mobility.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-ecosystem-principles.png", "path": "/frameworks/abc-framework-ecosystem-principles.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-future-planning.png", "path": "/frameworks/abc-framework-future-planning.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-generational-advancement.png", "path": "/frameworks/abc-framework-generational-advancement.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-goal-alignment.png", "path": "/frameworks/abc-framework-goal-alignment.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-inputs-and-resources.png", "path": "/frameworks/abc-framework-inputs-and-resources.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false },
+    { "file": "abc-framework-pathway-creation.png", "path": "/frameworks/abc-framework-pathway-creation.png", "category": "frameworks", "intended_usage": "Framework card", "homepage": false }
+  ],
+  "doctrine": [
+    { "file": "abc-doctrine-brand-identity-board.png", "path": "/doctrine/abc-doctrine-brand-identity-board.png", "category": "doctrine", "intended_usage": "Brand identity board - About page", "homepage": false },
+    { "file": "abc-doctrine-mission.png", "path": "/doctrine/abc-doctrine-mission.png", "category": "doctrine", "intended_usage": "Mission statement graphic", "homepage": true },
+    { "file": "abc-doctrine-pillars.png", "path": "/doctrine/abc-doctrine-pillars.png", "category": "doctrine", "intended_usage": "Brand pillars visual - About/Homepage", "homepage": true },
+    { "file": "abc-doctrine-brand-essence.png", "path": "/doctrine/abc-doctrine-brand-essence.png", "category": "doctrine", "intended_usage": "Brand essence visualization", "homepage": false },
+    { "file": "abc-doctrine-build-the-machine.png", "path": "/doctrine/abc-doctrine-build-the-machine.png", "category": "doctrine", "intended_usage": "Build The Machine doctrine", "homepage": false },
+    { "file": "abc-doctrine-brand-guidelines-dashboard.png", "path": "/doctrine/abc-doctrine-brand-guidelines-dashboard.png", "category": "doctrine", "intended_usage": "Brand guidelines reference", "homepage": false }
+  ],
+  "ecosystem": [
+    { "file": "abc-ecosystem-architecture-blueprint.png", "path": "/ecosystem/abc-ecosystem-architecture-blueprint.png", "category": "ecosystem", "intended_usage": "Ecosystem architecture - Atlas/About pages", "homepage": false }
+  ],
+  "infrastructure": [
+    { "file": "abc-infrastructure-ecosystem-engine.png", "path": "/infrastructure/abc-infrastructure-ecosystem-engine.png", "category": "infrastructure", "intended_usage": "Ecosystem engine diagram", "homepage": false },
+    { "file": "abc-infrastructure-doctrine.png", "path": "/infrastructure/abc-infrastructure-doctrine.png", "category": "infrastructure", "intended_usage": "Infrastructure doctrine", "homepage": false },
+    { "file": "abc-infrastructure-stability.png", "path": "/infrastructure/abc-infrastructure-stability.png", "category": "infrastructure", "intended_usage": "Stability infrastructure", "homepage": false },
+    { "file": "abc-infrastructure-technology.png", "path": "/infrastructure/abc-infrastructure-technology.png", "category": "infrastructure", "intended_usage": "Technology infrastructure", "homepage": false },
+    { "file": "abc-infrastructure-economic.png", "path": "/infrastructure/abc-infrastructure-economic.png", "category": "infrastructure", "intended_usage": "Economic infrastructure", "homepage": false },
+    { "file": "abc-infrastructure-accountability.png", "path": "/infrastructure/abc-infrastructure-accountability.png", "category": "infrastructure", "intended_usage": "Accountability infrastructure", "homepage": false },
+    { "file": "abc-infrastructure-opportunity.png", "path": "/infrastructure/abc-infrastructure-opportunity.png", "category": "infrastructure", "intended_usage": "Opportunity infrastructure", "homepage": false },
+    { "file": "abc-infrastructure-transformation-engine.png", "path": "/infrastructure/abc-infrastructure-transformation-engine.png", "category": "infrastructure", "intended_usage": "Transformation engine", "homepage": false }
+  ],
+  "leadership": [
+    { "file": "abc-leadership-legacy-framework.png", "path": "/leadership/abc-leadership-legacy-framework.png", "category": "leadership", "intended_usage": "Leadership & Legacy framework", "homepage": false }
+  ],
+  "photography": [
+    { "file": "abc-photography-institutional-origins-atlas.png", "path": "/photography/abc-photography-institutional-origins-atlas.png", "category": "photography", "intended_usage": "Institutional origins - About page", "homepage": false },
+    { "file": "abc-photography-founder-phase01-technology-era.png", "path": "/photography/abc-photography-founder-phase01-technology-era.png", "category": "photography", "intended_usage": "Founder journey Phase 1", "homepage": false },
+    { "file": "abc-photography-founder-phase01-timeline.png", "path": "/photography/abc-photography-founder-phase01-timeline.png", "category": "photography", "intended_usage": "Founder journey timeline", "homepage": false }
+  ],
+  "missing_assets": [
+    "abc-logo-primary-gold.svg",
+    "abc-logo-primary-white.svg",
+    "abc-social-og-homepage.png (1200x630)",
+    "abc-icon-favicon.svg",
+    "abc-background-texture-dark.png",
+    "abc-mission-control-dashboard.png"
+  ]
+}
