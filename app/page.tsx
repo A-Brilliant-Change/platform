@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "@/components/home/Hero";
 import AudiencePaths from "@/components/home/AudiencePaths";
 import Programs from "@/components/home/Programs";

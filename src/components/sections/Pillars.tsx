@@ -76,7 +76,9 @@ export default function Pillars() {
 								<h3 className="mt-8 max-w-48 font-light leading-6 text-white">{pillar.title}</h3>
 								<p className="mt-3 text-xs font-light leading-5 text-white/50">{pillar.description}</p>
 								<span className="mt-5 text-[9px] uppercase tracking-[0.16em] text-[#D4AF37]/75">Atlas relationship: {pillar.atlasRelationship}</span>
-								<span className={`mt-auto pt-6 text-[9px] font-semibold uppercase tracking-[0.18em] transition-colors ${isActive ? "text-[#D4AF37]" : "text-white/35 group-hover:text-[#D4AF37]"}`}>Explore Domain -></span>
+										<span className={`mt-auto pt-6 text-[9px] font-semibold uppercase tracking-[0.18em] transition-colors ${isActive ? "text-[#D4AF37]" : "text-white/35 group-hover:text-[#D4AF37]"}`}>
+											Explore Domain <span aria-hidden="true">→</span>
+										</span>
 							</motion.button>
 						);
 					})}
