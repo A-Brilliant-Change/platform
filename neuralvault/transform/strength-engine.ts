@@ -45,3 +45,10 @@ export function evaluateStrengths(
       : []),
   ];
 }
+
+
+
+
+
+
+

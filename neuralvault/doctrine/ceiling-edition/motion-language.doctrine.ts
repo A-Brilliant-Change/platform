@@ -22,3 +22,10 @@ export const motionLanguageDoctrine = {
 } as const;
 
 export const ceilingMotionDoctrine = motionLanguageDoctrine;
+
+
+
+
+
+
+

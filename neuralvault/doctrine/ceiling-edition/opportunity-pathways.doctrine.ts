@@ -17,3 +17,10 @@ export const opportunityPathwayDoctrine = {
     "Leadership returns energy to the ecosystem and helps open pathways for others.",
   ],
 } as const;
+
+
+
+
+
+
+

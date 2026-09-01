@@ -31,3 +31,7 @@ export function buildParticipantProfile(participant: Participant): ParticipantPr
     opportunityFit: participant.goals,
   };
 }
+
+
+
+

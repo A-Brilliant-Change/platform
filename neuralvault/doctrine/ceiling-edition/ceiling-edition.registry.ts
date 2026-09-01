@@ -41,3 +41,10 @@ export const ceilingEditionDoctrine = {
     decorativeMotionMustRemainSecondary: true,
   },
 } as const;
+
+
+
+
+
+
+

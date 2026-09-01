@@ -41,3 +41,7 @@ export const useExperienceStore = create<ExperienceState>((set) => ({
       activePath: path,
     }),
 }));
+
+
+
+

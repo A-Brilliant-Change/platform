@@ -20,3 +20,7 @@ export function summarizeMilestoneProgress(stages: PathwayStage[]): { total: num
     ratio: total === 0 ? 0 : Math.round((complete / total) * 100),
   };
 }
+
+
+
+

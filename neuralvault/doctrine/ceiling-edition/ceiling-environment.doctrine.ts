@@ -16,3 +16,10 @@ export const ceilingEnvironmentDoctrine = {
     "Motion must communicate progress and belonging, not spectacle.",
   ],
 } as const;
+
+
+
+
+
+
+

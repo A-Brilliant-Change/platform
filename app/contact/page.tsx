@@ -249,21 +249,21 @@ export default function ContactPage() {
                     className="flex items-center justify-between rounded-xl border border-white/10 bg-[#091B36]/60 p-3.5 text-xs uppercase tracking-[0.16em] text-white transition hover:border-[#D4AF37]/60"
                   >
                     <span>Master Transformation Atlas</span>
-                    <span className="text-[#D4AF37]">-&gt;</span>
-                  </Link>
+<span className="text-[#D4AF37]">→</span>
+             </Link>
                   <Link
                     href="/journey"
                     className="flex items-center justify-between rounded-xl border border-white/10 bg-[#091B36]/60 p-3.5 text-xs uppercase tracking-[0.16em] text-white transition hover:border-[#D4AF37]/60"
                   >
                     <span>Explore Opportunity Pathway</span>
-                    <span className="text-[#D4AF37]">-&gt;</span>
+                    <span className="text-[#D4AF37]">-></span>
                   </Link>
                   <Link
                     href="/about"
                     className="flex items-center justify-between rounded-xl border border-white/10 bg-[#091B36]/60 p-3.5 text-xs uppercase tracking-[0.16em] text-white transition hover:border-[#D4AF37]/60"
                   >
                     <span>About Brand Doctrine & Promises</span>
-                    <span className="text-[#D4AF37]">-&gt;</span>
+                    <span className="text-[#D4AF37]">-></span>
                   </Link>
                 </div>
               </div>
@@ -274,4 +274,12 @@ export default function ContactPage() {
     </main>
   );
 }
+
+
+
+
+
+
+
+
 

@@ -34,3 +34,7 @@ export function estimateCommunityImpact(goal: TransformationGoal, domains: Trans
       : []),
   ];
 }
+
+
+
+

@@ -92,3 +92,7 @@ export const pillars = [
 ] as const;
 
 export type Pillar = (typeof pillars)[number];
+
+
+
+

@@ -36,3 +36,10 @@ export const infrastructureDoctrine = {
 } as const;
 
 export const ceilingInfrastructureDoctrine = infrastructureDoctrine;
+
+
+
+
+
+
+

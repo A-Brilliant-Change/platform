@@ -49,3 +49,10 @@ export const peopleFirstHeartDoctrine = {
     "The heart may reduce in scale, but it must remain symbolically present.",
   ],
 } as const;
+
+
+
+
+
+
+

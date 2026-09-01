@@ -50,3 +50,7 @@ export function matchParticipantToOpportunities(participant: Participant): Oppor
     domain: domainMap[opportunity.domain] ?? opportunity.domain,
   }));
 }
+
+
+
+

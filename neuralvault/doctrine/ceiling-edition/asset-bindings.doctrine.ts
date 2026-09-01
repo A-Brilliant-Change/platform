@@ -37,3 +37,10 @@ export const assetBindingsDoctrine = {
 } as const;
 
 export const ceilingAssetBindings = assetBindingsDoctrine;
+
+
+
+
+
+
+

@@ -44,3 +44,7 @@ export function evaluateBarriers(
 
   return barriers;
 }
+
+
+
+

@@ -35,3 +35,10 @@ export function forecastOutcome(goal: TransformationGoal, domains: Transformatio
     },
   ];
 }
+
+
+
+
+
+
+

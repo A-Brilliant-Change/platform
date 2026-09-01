@@ -20,3 +20,7 @@ export function scoreTransformation(
     summary: `${goal.title} has a ${overall}/100 transformation health score based on domain coverage, readiness, and ecosystem return.`,
   };
 }
+
+
+
+

@@ -3,9 +3,13 @@ export default function HeroSection() {
     <section>
       <h1>
         A BRILLIANT CHANGE
-        <br />
+        
         HAS FINALLY ARRIVED.
       </h1>
     </section>
   );
 }
+
+
+
+

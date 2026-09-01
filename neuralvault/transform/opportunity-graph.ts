@@ -81,3 +81,10 @@ export function buildOpportunityGraph(goalTitle: string, domainIds: string[] = [
 
   return { nodes, edges };
 }
+
+
+
+
+
+
+

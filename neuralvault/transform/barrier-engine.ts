@@ -62,3 +62,10 @@ export function evaluateBarriers(
 
   return barrierMap;
 }
+
+
+
+
+
+
+

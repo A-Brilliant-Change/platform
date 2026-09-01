@@ -15,3 +15,10 @@ export const accessibilityDoctrine = {
 } as const;
 
 export const ceilingAccessibilityDoctrine = accessibilityDoctrine;
+
+
+
+
+
+
+

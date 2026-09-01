@@ -26,3 +26,10 @@ export const tulsaOriginDoctrine = {
     "Future expansion must be presented as vision unless supported by active operations.",
   ],
 } as const;
+
+
+
+
+
+
+
