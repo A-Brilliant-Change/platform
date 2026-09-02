@@ -1,52 +1,52 @@
 export const credibilityMarkers = [
   {
-    id: "recognized",
-    label: "Nationally Recognized",
-    description: "Award-winning transformation model",
+    id: "status",
+    label: "Public Platform",
+    description: "Live and open for discovery",
   },
   {
-    id: "evidence",
-    label: "Evidence-Based",
-    description: "Measured results and continuous evaluation",
+    id: "framework",
+    label: "Transformation Framework",
+    description: "Established and guiding our system design",
   },
   {
-    id: "experienced",
-    label: "15+ Years",
-    description: "Proven impact in workforce and community transformation",
+    id: "city",
+    label: "Demonstration City",
+    description: "Tulsa as the origin and proving ground",
   },
   {
-    id: "connected",
-    label: "200+ Partners",
-    description: "Trusted by employers, nonprofits, and community leaders",
+    id: "ops",
+    label: "Operating System",
+    description: "In development with an evidence-informed foundation",
   },
 ] as const;
 
 export const recognitionAwards = [
   {
-    id: "award-1",
-    title: "Community Impact Award",
-    organization: "Tulsa Regional Chamber",
-    year: "2024",
+    id: "status-1",
+    title: "Platform Status",
+    organization: "Public Launch",
+    year: "Live",
   },
   {
-    id: "award-2",
-    title: "Workforce Innovation",
-    organization: "National Skills Coalition",
-    year: "2023",
+    id: "status-2",
+    title: "System Design",
+    organization: "Transformation Framework",
+    year: "Established",
   },
   {
-    id: "award-3",
-    title: "Social Enterprise of the Year",
-    organization: "Oklahoma Nonprofit Network",
-    year: "2023",
+    id: "status-3",
+    title: "Demonstration Context",
+    organization: "Tulsa, Oklahoma",
+    year: "Origin",
   },
 ] as const;
 
 export const trustIndicators = [
-  { label: "98% Job Placement Rate", value: "98%" },
-  { label: "85% Career Advancement", value: "85%" },
-  { label: "$18K Avg Income Increase", value: "+$18K" },
-  { label: "4:1 ROI on Investment", value: "4:1" },
+  { label: "Public Platform", value: "Live" },
+  { label: "Transformation Framework", value: "Established" },
+  { label: "Demonstration City", value: "Tulsa" },
+  { label: "Operating System", value: "In Development" },
 ] as const;
 
 export type CredibilityMarker = (typeof credibilityMarkers)[number];

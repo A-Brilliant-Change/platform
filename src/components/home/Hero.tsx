@@ -20,9 +20,21 @@ export default function Hero() {
       <div className="mx-auto w-full max-w-7xl">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }} className="max-w-4xl">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#D4AF37]">The ABC Transformation Operating System</p>
-          <h1 className="mt-6 text-6xl font-light leading-[0.9] tracking-tight text-white sm:text-8xl lg:text-[7.5rem]">Building Brighter Futures.Creating Opportunities.<span className="text-white/50">Designing Systems.</span></h1>
-          <p className="mt-8 max-w-xl text-lg font-light leading-8 text-white/70">A Brilliant Change is building the Infrastructure of Transformation to expand opportunity, strengthen communities, and create lasting impact.</p>
-          <div className="mt-10 flex flex-wrap gap-3"><PrimaryButton href="#atlas">Explore The Atlas</PrimaryButton><a href="#join" className="inline-flex min-h-12 items-center rounded-full border border-white/30 px-6 text-xs font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:border-[#D4AF37] hover:text-[#D4AF37]">Join The Movement</a></div>
+          <h1 className="mt-6 text-5xl font-light leading-[0.9] tracking-[-0.04em] text-white sm:text-6xl lg:text-[5.2rem]">
+            <span className="block">Building Brighter Futures.</span>
+            <span className="block">Creating Opportunities.</span>
+            <span className="block text-white/75">Designing Systems.</span>
+          </h1>
+          <p className="mt-8 max-w-xl text-lg font-light leading-8 text-white/70">
+            A Brilliant Change is crafting the infrastructure of transformation.
+          </p>
+          <p className="mt-3 max-w-xl text-base leading-7 text-white/65">
+            Expanding opportunity. Strengthening communities. Creating lasting impact.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-3">
+            <PrimaryButton href="#atlas">Explore The Atlas</PrimaryButton>
+            <a href="#join" className="inline-flex min-h-12 items-center rounded-full border border-white/30 px-6 text-xs font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:border-[#D4AF37] hover:text-[#D4AF37]">Join The Movement</a>
+          </div>
         </motion.div>
       </div>
     </section>

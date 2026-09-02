@@ -1,27 +1,27 @@
 export const impactMetrics = [
   {
     id: "individuals",
-    metric: "50,000+",
-    label: "Individuals Impacted",
-    description: "People moving toward opportunity and transformation",
+    metric: "People",
+    label: "At the center",
+    description: "Human potential is the starting point for every transformation pathway",
   },
   {
     id: "opportunities",
-    metric: "15,000+",
-    label: "Opportunities Created",
-    description: "Jobs, skills, pathways, and community roles",
+    metric: "Pathways",
+    label: "In design",
+    description: "Programs, tools, and systems being shaped around real needs",
   },
   {
     id: "communities",
-    metric: "25+",
-    label: "Communities Connected",
-    description: "Neighborhoods strengthened through collaboration",
+    metric: "Communities",
+    label: "In focus",
+    description: "Neighborhood-centered strategies rooted in local context and trust",
   },
   {
     id: "ecosystem",
-    metric: "200+",
-    label: "Ecosystem Partners",
-    description: "Organizations aligned in transformation",
+    metric: "Partners",
+    label: "Growing",
+    description: "Collaborations expanding as the operating system matures",
   },
 ] as const;
 

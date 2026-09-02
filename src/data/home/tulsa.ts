@@ -3,29 +3,29 @@ export const tulsaHub = {
   title: "Transformation Hub: Tulsa",
   tagline: "Where A Brilliant Change Began",
   headline: "Building Brighter Futures in Tulsa",
-  description: "Tulsa is the proving ground and command center for ABC's transformation operating system. From Greenwood to North Tulsa, we're creating systems that expand opportunity and strengthen community.",
+  description: "Tulsa is the origin and demonstration city for ABC's transformation operating system. We are building connected systems that expand opportunity and strengthen community.",
   image: "/images/locations/tulsa-skyline",
   cta: "Explore Tulsa Hub",
   href: "/atlas",
   stats: [
     {
-      metric: "10,000+",
-      label: "Tulsa residents engaged",
+      metric: "Public Platform",
+      label: "Live",
     },
     {
-      metric: "500+",
-      label: "Local partnerships",
+      metric: "Transformation Framework",
+      label: "Established",
     },
     {
-      metric: "4 Neighborhoods",
-      label: "Focused development areas",
+      metric: "Demonstration City",
+      label: "Tulsa",
     },
   ],
   initiatives: [
-    "Greenwood Renaissance Project",
-    "North Tulsa Economic Corridor",
     "Community Leadership Development",
     "Digital Transformation Initiative",
+    "Opportunity Pathway Design",
+    "Civic Infrastructure Development",
   ],
 } as const;
 

@@ -66,7 +66,7 @@ export default function ImpactFramework() {
 
       {/* Impact Metrics */}
       <div className="border-t border-white/10 pt-16">
-        <h3 className="mb-8 text-2xl font-light text-white">Our Impact Today</h3>
+        <h3 className="mb-8 text-2xl font-light text-white">What We Are Building Today</h3>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {impactMetrics.map((stat, index) => (
             <motion.div

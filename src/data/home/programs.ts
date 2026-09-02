@@ -5,7 +5,7 @@ export const programs = [
     tagline: "Career Readiness & Employment",
     description: "Connect individuals to meaningful careers through skills training, certifications, and employer partnerships.",
     status: "active",
-    impact: "2500+ individuals placed",
+    impact: "Career pathways in motion",
   },
   {
     id: "abc-economic",
@@ -13,7 +13,7 @@ export const programs = [
     tagline: "Financial Literacy & Entrepreneurship",
     description: "Build pathways from financial instability to wealth creation through education, small business support, and investment.",
     status: "active",
-    impact: "450+ entrepreneurs supported",
+    impact: "Entrepreneurship support in development",
   },
   {
     id: "brilliant-tech",
@@ -21,7 +21,7 @@ export const programs = [
     tagline: "Digital Skills & Innovation",
     description: "Ensure technology access and digital literacy become opportunity multipliers, not barriers.",
     status: "active",
-    impact: "1200+ trained in tech skills",
+    impact: "Digital readiness programs forming",
   },
   {
     id: "community-hub",
@@ -29,7 +29,7 @@ export const programs = [
     tagline: "Neighborhood Revitalization",
     description: "Strengthen neighborhoods through collaboration, civic engagement, and community-led projects.",
     status: "active",
-    impact: "15+ communities transformed",
+    impact: "Neighborhood strategy under development",
   },
   {
     id: "leadership-institute",
@@ -37,7 +37,7 @@ export const programs = [
     tagline: "Developing Next-Gen Leaders",
     description: "Cultivate leaders who create influence, stewardship, and lasting impact in their communities.",
     status: "active",
-    impact: "200+ leaders developed",
+    impact: "Leadership cohorts forming",
   },
   {
     id: "storytelling",
@@ -45,7 +45,7 @@ export const programs = [
     tagline: "Narrative & Impact Communication",
     description: "Amplify transformation through storytelling, journalism, and creative platforms.",
     status: "active",
-    impact: "Reaching 2M+ annually",
+    impact: "Narrative platform expanding",
   },
 ] as const;
 
