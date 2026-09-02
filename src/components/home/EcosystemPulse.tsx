@@ -17,79 +17,28 @@ export default function EcosystemPulse() {
   );
 
   return (
-    <div className="fixed right-6 top-6 z-50">
-      <div className="w-64 rounded-2xl border border-white/10 bg-black/70 p-4 text-white shadow-2xl backdrop-blur-md">
-        {/* Header */}
-        <div className="flex items-center gap-2">
-          <Activity className="h-4 w-4 text-green-400 animate-pulse" />
-
-          <span className="text-xs font-semibold uppercase tracking-[0.3em] text-green-400">
-            Live
+    <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-amber-500/40 bg-black/95 text-white">
+      <div className="overflow-hidden">
+        <div className="flex items-center gap-12 whitespace-nowrap px-4 py-2 text-sm">
+          <span className="flex items-center gap-2 text-green-400">
+            <Activity className="h-4 w-4 animate-pulse" />
+            ECOSYSTEM ACTIVE
           </span>
-        </div>
 
-        {/* Title */}
-        <div className="mt-3">
-          <h3 className="text-sm font-semibold tracking-wide">
-            Ecosystem Pulse™
-          </h3>
+          <span>ENGAGEMENT {pulseLevel}%</span>
+          <span>CHAPTER {activeChapter}</span>
+          <span>PATH {activePath ?? "NOT SELECTED"}</span>
 
-          <p className="mt-1 text-xs text-slate-400">
-            The Heartbeat of Transformation
-          </p>
-        </div>
+          <span className="text-amber-400">
+            EVERY OPPORTUNITY BEGINS WITH PEOPLE™
+          </span>
 
-        {/* Progress Bar */}
-        <div className="mt-4">
-          <div className="mb-2 flex justify-between text-[10px] uppercase tracking-wider text-slate-500">
-            <span>Engagement</span>
-            <span>{pulseLevel}%</span>
-          </div>
-
-          <div className="h-2 overflow-hidden rounded-full bg-slate-800">
-            <div
-              className="h-full rounded-full bg-gradient-to-r from-amber-500 to-yellow-300 transition-all duration-700"
-              style={{
-                width: `${pulseLevel}%`,
-              }}
-            />
-          </div>
-        </div>
-
-        {/* Status */}
-        <div className="mt-4 space-y-2 text-xs">
-          <div className="flex justify-between">
-            <span className="text-slate-400">
-              Active Chapter
-            </span>
-
-            <span className="capitalize text-white">
-              {activeChapter}
-            </span>
-          </div>
-
-          <div className="flex justify-between">
-            <span className="text-slate-400">
-              Active Path
-            </span>
-
-            <span className="capitalize text-white">
-              {activePath ?? "Not Selected"}
-            </span>
-          </div>
-        </div>
-
-        {/* Pulse Line */}
-        <div className="mt-4 overflow-hidden rounded-md border border-white/5 bg-slate-900 p-2">
-          <div className="flex h-4 items-center">
-            <div className="h-[2px] w-full animate-pulse bg-gradient-to-r from-transparent via-green-400 to-transparent" />
-          </div>
+          <span>ATLAS ONLINE</span>
+          <span>JOURNEY ACTIVE</span>
+          <span>WORKFORCE PATHWAYS OPEN</span>
+          <span>TRANSFORMATION IN PROGRESS</span>
         </div>
       </div>
     </div>
   );
 }
-
-
-
-
