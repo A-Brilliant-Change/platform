@@ -16,7 +16,7 @@ export default function EcosystemPreview() {
         </div>
         <div className="relative overflow-hidden border border-white/15 bg-[#091B36] h-96 sm:h-[32rem]">
           <Image
-            src="/images/ecosystem/ecosystem-explorer.svg"
+            src="/visual-canon/atlas/atlas-03-the-atlas-of-opportunity.png"
             alt="The atlas of opportunity - ecosystem overview"
             fill
             className="object-cover opacity-75"
@@ -29,7 +29,6 @@ export default function EcosystemPreview() {
     </Section>
   );
 }
-
 
 
 

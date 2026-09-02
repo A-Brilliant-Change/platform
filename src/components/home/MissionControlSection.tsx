@@ -17,7 +17,7 @@ export default function MissionControlSection() {
           className="order-last overflow-hidden rounded-3xl border border-white/15 bg-[#0b203d]/50 lg:order-first relative h-96 sm:h-[32rem] lg:h-[28rem]"
         >
           <Image
-            src="/visual-canon/infrastructure/mission-control-01-alive-every-day.png"
+            src="/images/infrastructure/infrastructure-explorer.svg"
             alt="Mission Control - alive every day operating system"
             fill
             className="object-cover"
@@ -81,3 +81,4 @@ export default function MissionControlSection() {
     </Section>
   );
 }
+
