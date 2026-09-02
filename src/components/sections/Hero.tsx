@@ -117,10 +117,10 @@ export default function Hero() {
 						className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center"
 					>
 						<a href="#mission" className="group inline-flex min-h-12 items-center justify-center gap-4 rounded-full bg-[#D4AF37] px-6 text-[10px] font-bold uppercase tracking-[0.18em] text-[#091B36] transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D4AF37]">
-							Explore The Mission <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">-></span>
+							Explore The Mission <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">→</span>
 						</a>
 						<a href="#atlas" className="group inline-flex min-h-12 items-center justify-center gap-4 rounded-full border border-white/25 px-6 text-[10px] font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:border-[#D4AF37] hover:text-[#D4AF37] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D4AF37]">
-							Enter The Atlas <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">-></span>
+							Enter The Atlas <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">→</span>
 						</a>
 						<a href="#join" className="inline-flex min-h-12 items-center justify-center px-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#D4AF37] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D4AF37]">
 							Join The Movement

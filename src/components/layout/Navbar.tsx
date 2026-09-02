@@ -85,7 +85,7 @@ export default function Navbar() {
 					>
 						Connect
 						<span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">
-							->
+							→
 						</span>
 					</Link>
 					<button
@@ -146,7 +146,7 @@ export default function Navbar() {
 									className="mt-6 flex items-center justify-between rounded-full bg-[#D4AF37] px-5 py-4 text-xs font-bold uppercase tracking-[0.16em] text-[#091B36] outline-none transition-colors hover:bg-white focus-visible:ring-2 focus-visible:ring-white"
 								>
 									Connect
-									<span aria-hidden="true">-></span>
+									<span aria-hidden="true">→</span>
 								</Link>
 							</div>
 						</motion.div>
