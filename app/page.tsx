@@ -1,14 +1,12 @@
 "use client";
 
-import Hero from "@/components/home/Hero";
-import AudiencePaths from "@/components/home/AudiencePaths";
-import Programs from "@/components/home/Programs";
-import ImpactFramework from "@/components/home/ImpactFramework";
+import CanonicalHero from "@/components/home/CanonicalHero";
+import PromisePhase from "@/components/home/PromisePhase";
+import DomainsPhase from "@/components/home/DomainsPhase";
+import PathwaysPhase from "@/components/home/PathwaysPhase";
 import EcosystemPreview from "@/components/home/EcosystemPreview";
-import TulsaSection from "@/components/home/TulsaSection";
 import FoundersVoice from "@/components/home/FoundersVoice";
 import MissionControlSection from "@/components/home/MissionControlSection";
-import CredibilitySection from "@/components/home/CredibilitySection";
 import CallToAction from "@/components/home/CallToAction";
 import EcosystemPulse from "@/components/home/EcosystemPulse";
 
@@ -17,35 +15,29 @@ export default function HomePage() {
     <>
       <EcosystemPulse />
 
-      <main>
-        {/* 01 Hero */}
-        <Hero />
+      <main className="pt-20">
+        {/* 01 Canonical Hero - Origin Phase */}
+        <CanonicalHero />
 
-        {/* 02 Audience Paths */}
-        <AudiencePaths />
+        {/* 02 Promise Phase */}
+        <PromisePhase />
 
-        {/* 03 Programs */}
-        <Programs />
+        {/* 03 Domains Phase */}
+        <DomainsPhase />
 
-        {/* 04 Impact Framework */}
-        <ImpactFramework />
+        {/* 04 Pathways Phase */}
+        <PathwaysPhase />
 
         {/* 05 Ecosystem */}
         <EcosystemPreview />
 
-        {/* 06 Tulsa */}
-        <TulsaSection />
-
-        {/* 07 Founder Story */}
+        {/* 06 Founder Story & Phase 01 */}
         <FoundersVoice />
 
-        {/* 08 Mission Control */}
+        {/* 07 Mission Control */}
         <MissionControlSection />
 
-        {/* 09 Credibility */}
-        <CredibilitySection />
-
-        {/* 10 Final CTA */}
+        {/* 08 Final CTA */}
         <CallToAction />
       </main>
     </>
