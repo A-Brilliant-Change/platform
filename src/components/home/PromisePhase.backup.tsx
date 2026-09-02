@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useCeilingSession } from "@/hooks/useCeilingSession";
 import Section from "@/components/ui/Section";
 
@@ -64,15 +63,6 @@ export default function PromisePhase() {
   return (
     <Section id="promise" className="bg-[#0B1F3A] py-20 sm:py-32">
       <div className="space-y-16">
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="relative overflow-hidden rounded-3xl border border-white/10"
-        >
-        </motion.div>
         {/* Promise Statement */}
         <div className="max-w-4xl space-y-6">
           <motion.p
@@ -145,8 +135,3 @@ export default function PromisePhase() {
     </Section>
   );
 }
-
-
-
-
-
