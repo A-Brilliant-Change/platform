@@ -16,29 +16,57 @@ export default function EcosystemPulse() {
     (state) => state.activePath
   );
 
+  const tickerItems = [
+    "ECOSYSTEM ACTIVE",
+    `ENGAGEMENT ${pulseLevel}%`,
+    `CHAPTER ${activeChapter}`,
+    `PATH ${activePath ?? "NOT SELECTED"}`,
+    "ATLAS ONLINE",
+    "JOURNEY ACTIVE",
+    "WORKFORCE PATHWAYS OPEN",
+    "TRANSFORMATION IN PROGRESS",
+    "PEOPLE FIRST HEART ACTIVE",
+    "EVERY OPPORTUNITY BEGINS WITH PEOPLE™",
+  ];
+
   return (
-    <div className="fixed top-0 left-0 right-0 z-[60] border-t border-amber-500/40 bg-black/95 text-white">
+    <div className="fixed top-0 left-0 right-0 z-[60] border-b border-amber-500/40 bg-black/95 text-white backdrop-blur-md">
       <div className="overflow-hidden">
-        <div className="flex items-center gap-12 whitespace-nowrap px-4 py-1 text-xs uppercase tracking-wider">
-          <span className="flex items-center gap-2 text-green-400">
-            <Activity className="h-4 w-4 animate-pulse" />
-            ECOSYSTEM ACTIVE
-          </span>
+        <div
+          className="flex items-center whitespace-nowrap py-1 text-xs uppercase tracking-wider"
+          style={{
+            width: "max-content",
+            animation: "abcTicker 45s linear infinite",
+          }}
+        >
+          {[...tickerItems, ...tickerItems, ...tickerItems].map(
+            (item, index) => (
+              <span
+                key={index}
+                className="mx-6 flex items-center gap-2"
+              >
+                {index === 0 && (
+                  <Activity className="h-3 w-3 text-green-400 animate-pulse" />
+                )}
 
-          <span>ENGAGEMENT {pulseLevel}%</span>
-          <span>CHAPTER {activeChapter}</span>
-          <span>PATH {activePath ?? "NOT SELECTED"}</span>
-
-          <span className="text-amber-400">
-            EVERY OPPORTUNITY BEGINS WITH PEOPLE™
-          </span>
-
-          <span>ATLAS ONLINE</span>
-          <span>JOURNEY ACTIVE</span>
-          <span>WORKFORCE PATHWAYS OPEN</span>
-          <span>TRANSFORMATION IN PROGRESS</span>
+                {item}
+              </span>
+            )
+          )}
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes abcTicker {
+          from {
+            transform: translateX(0);
+          }
+
+          to {
+            transform: translateX(-33.333%);
+          }
+        }
+      `}</style>
     </div>
   );
 }

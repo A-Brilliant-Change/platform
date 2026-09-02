@@ -41,7 +41,7 @@ export default function Navbar() {
 	}, [isMenuOpen]);
 
 	return (
-		<header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6 lg:px-8">
+		<header className="fixed inset-x-0 top-16 z-50 px-4 pt-4 sm:px-6 lg:px-8">
 			<motion.nav
 				aria-label="Primary navigation"
 				animate={{
@@ -156,6 +156,9 @@ export default function Navbar() {
 		</header>
 	);
 }
+
+
+
 
 
 
