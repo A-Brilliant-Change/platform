@@ -37,6 +37,63 @@ export default function FoundersVoice() {
             opportunity. The work is to connect people, community, technology,
             leadership, and hope into systems that create lasting impact.
           </p>
+<div className="mt-10">
+  <p className="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-[#D4AF37]">
+    The Journey
+  </p>
+
+  <div className="space-y-5">
+    {[
+      {
+        year: "Origin",
+        title: "The Reality",
+        description:
+          "Experiencing firsthand challenges that revealed the need for a more connected path toward opportunity and transformation.",
+      },
+      {
+        year: "Vision",
+        title: "The Idea",
+        description:
+          "Believing that people thrive when systems, support, community, and opportunity work together.",
+      },
+      {
+        year: "Design",
+        title: "The Blueprint",
+        description:
+          "Developing the framework that would become A Brilliant Change and its interconnected ecosystem.",
+      },
+      {
+        year: "Launch",
+        title: "The Movement",
+        description:
+          "Turning vision into action through workforce development, technology, community engagement, and opportunity creation.",
+      },
+    ].map((step) => (
+      <motion.div
+        key={step.title}
+        initial={{ opacity: 0, x: -10 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="flex gap-5 border-l border-[#D4AF37]/40 pl-5"
+      >
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[#D4AF37]">
+            {step.year}
+          </p>
+
+          <h4 className="mt-1 text-lg font-light text-white">
+            {step.title}
+          </h4>
+
+          <p className="mt-2 text-sm leading-6 text-white/60">
+            {step.description}
+          </p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</div>
           <a
             href="/founder"
             className="mt-8 inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#D4AF37]"
