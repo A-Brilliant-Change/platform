@@ -43,10 +43,10 @@ export default function CanonicalHero() {
   };
 
   return (
-    <section id="origin" className="relative isolate flex min-h-screen items-end overflow-hidden px-6 pb-20 pt-24 sm:px-10 lg:px-16 lg:pb-32">
+    <section id="origin" className="relative isolate flex min-h-screen items-end overflow-hidden px-6 pb-20 pt-32 sm:px-10 lg:px-16 lg:pb-32">
       {/* Background Image */}
       <Image
-        src="/images/hero/master-hero-ceiling-edition.svg"
+        src="/visual-canon/origin/journey-00-the-first-flame.png"
         alt="The first flame - journey of transformation begins"
         fill
         className="absolute inset-0 -z-20 object-cover object-center"
@@ -133,6 +133,3 @@ export default function CanonicalHero() {
     </section>
   );
 }
-
-
-
