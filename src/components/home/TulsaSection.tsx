@@ -76,7 +76,7 @@ export default function TulsaSection() {
           className="overflow-hidden rounded-3xl border border-white/15 bg-[#091B36]/50 relative h-96 sm:h-[32rem] lg:h-[28rem]"
         >
           <Image
-            src="/visual-canon/infrastructure/journey-03-the-stability-foundation.png"
+            src="/images/origin/tulsa-origin-map.svg"
             alt="Tulsa - the stability foundation for transformation"
             fill
             className="object-cover"
@@ -87,3 +87,4 @@ export default function TulsaSection() {
     </Section>
   );
 }
+
