@@ -15,7 +15,7 @@ export default function CallToAction() {
         className="absolute inset-0 -z-10 h-full w-full"
       >
         <Image
-          src="/visual-canon/ecosystem/journey-06-opportunity-activation.png"
+          src="/images/atlas/master-transformation-atlas.svg"
           alt="Opportunity activation - next chapter awaiting"
           fill
           className="object-cover"
@@ -48,6 +48,7 @@ export default function CallToAction() {
     </Section>
   );
 }
+
 
 
 
