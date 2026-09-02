@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useCeilingSession } from "@/hooks/useCeilingSession";
 import Section from "@/components/ui/Section";
 
@@ -145,6 +144,7 @@ export default function PromisePhase() {
     </Section>
   );
 }
+
 
 
 
