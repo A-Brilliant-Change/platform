@@ -30,23 +30,24 @@ export default function EcosystemPulse() {
   ];
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-[60] h-8 overflow-hidden border-b border-amber-500/40 bg-black/95 text-white">
-      <div className="flex h-full items-center overflow-hidden">
+    <div className="sticky top-0 z-[60] h-8 overflow-hidden border-b border-amber-500/30 bg-black/95 text-white backdrop-blur-md">
+      <div className="flex h-full items-center">
         <div
           className="flex items-center whitespace-nowrap"
           style={{
             width: "max-content",
             animation: "abcTicker 45s linear infinite",
+            willChange: "transform",
           }}
         >
           {[...tickerItems, ...tickerItems, ...tickerItems].map(
             (item, index) => (
               <span
                 key={index}
-                className="mx-8 flex items-center gap-2 text-xs uppercase tracking-wider"
+                className="mx-8 flex h-8 items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-white/90"
               >
                 {index === 0 && (
-                  <Activity className="h-3 w-3 animate-pulse text-green-400" />
+                  <Activity className="h-3 w-3 text-green-400 animate-pulse" />
                 )}
                 {item}
               </span>
@@ -58,10 +59,10 @@ export default function EcosystemPulse() {
       <style jsx>{`
         @keyframes abcTicker {
           from {
-            transform: translateX(0);
+            transform: translate3d(0, 0, 0);
           }
           to {
-            transform: translateX(-33%);
+            transform: translate3d(-33.333%, 0, 0);
           }
         }
       `}</style>
